@@ -85,28 +85,43 @@ page{
     width: 100%;
     height: 100%;
     margin-top: 15rpx;
-    display: flex;
-    justify-content: space-around
+    flex-direction: column
 }
 .inner{
-    width: 49%;
+    width: 98%;
     height: 250rpx;
-    position: relative;
+    margin-left: 1%;
+    margin-bottom: 20rpx;
+    display: flex
 }
+/**
 .inner text{
     font-family: Microsoft YaHei;
     font-size: 30px;
-    color: white;
+    color: #000;
     position: absolute;
     width: 100%;
     text-align: center;
     line-height: 250rpx;
-    /*text-shadow:#eb4714 1px 0 0,#eb4714 0 1px 0,#eb4714 -1px 0 0,#eb4714 0 -1px 0;*/
+    text-shadow:#eb4714 1px 0 0,#eb4714 0 1px 0,#eb4714 -1px 0 0,#eb4714 0 -1px 0;
     filter: Glow(color=#000, strength=1);
+}
+**/
+.inner .newsImages{
+    width: 40%;
+    
+} 
+.inner .newsImages image{
+    width: 100%;
+    height: 100%;
+}
+.inner .newsText{
+    padding-left: 7rpx;
+    text-align: left;
 }
 
 /*w文字伪类*/
-.text{
+/**.text{
   position: relative;
   opacity: 0.9;
   
@@ -131,19 +146,19 @@ page{
     height: 3px;
     background: #fff;
     opacity: 0.6
-}
+}**/
 .spring{
-    background-image: url(http://api.h6vr.com/cdn.h6vr.com/chwl/images/season/spring/beihai.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
 }
 .summer{
-    background-image: url(http://api.h6vr.com/cdn.h6vr.com/chwl/images/season/summer/summer.jpg);
+    background-image: url(/images/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .autumn{
-    background-image: url(http://api.h6vr.com/cdn.h6vr.com/chwl/images/season/autumn/autumn.jpg);
+    background-image: url(/images/qiutian.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

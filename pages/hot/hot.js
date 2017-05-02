@@ -38,9 +38,14 @@ Page({
   onShareAppMessage: function() {
     // 用户点击右上角分享
     return {
-      title: '【平谷桃花节】', // 分享标题
-      desc: '沐浴绯色花海', // 分享描述
+      title: '【专业服务！一手送签！】', // 分享标题
+      desc: '', // 分享描述
       path: 'pages/hot/hot' // 分享路径
     }
+  },
+  callPhone:function(){
+    wx.makePhoneCall({
+      phoneNumber: '18811569656'
+    })
   }
 })

@@ -15,17 +15,17 @@ Page({
         {
             name:"签证",
             icon:"/images/qianzheng.png",
-            page:"/pages/season/spring/post"
+            page:"/pages/hot/hot"
         },
         {
             name:"线路",
             icon:"/images/xianlu.png",
-            page:"/pages/tool/weather/weather"
+            page:"/pages/hot/hot"
         },
         {
             name:"地接",
             icon:"/images/dijie.png",
-            page:"/pages/tool/date/date"
+            page:"/pages/hot/hot"
         }
     ],
     openType:"navigate"
