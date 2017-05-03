@@ -134,7 +134,7 @@ Page({
   onShareAppMessage: function() {
     // 用户点击右上角分享
     return {
-      title: '【北京四季游攻略】', // 分享标题
+      title: '【旅游圈同业资讯】', // 分享标题
       desc: '', // 分享描述
       path: '/pages/travel/travel' // 分享路径
     }
