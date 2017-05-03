@@ -2,7 +2,7 @@ var hot = [
        
     {
         
-        avatar: "/images/img3.jpg",
+        avatar: "http://api.h6vr.com/cdn.h6vr.com/lyty/images/img3.jpg",
         collect_img: "",
         view_img: "",
         headImgSrc: "",

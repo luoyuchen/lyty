@@ -23,8 +23,7 @@
     "pages/tool/constellation/constellation-detail/index",
     "pages/tool/joke/index/index",
     "pages/tool/joke/pictures/main",
-    "pages/tool/history/index",
-    "pages/mine/mine"
+    "pages/tool/history/index"
    
     
   ],
@@ -40,8 +39,8 @@
       "selectedIconPath": "images/icon/travel.png"
     },
       {
-      "pagePath": "pages/mine/mine",
-      "text": "我的",
+      "pagePath": "pages/helper/helper",
+      "text": "助手",
       "iconPath": "images/icon/helperd.png",
       "selectedIconPath": "images/icon/helper.png"
     }

@@ -41,18 +41,18 @@
     <view class="seasonWraper">
         
         <view class="listtext hottext">
-            <text>◇ 同业讯息 ◇</text>
+            <text>◇ 旅游讯息 ◇</text>
         </view>
         <view class="season">
-            <view class="inner news hover" bindtap="openSpring">
-                <view class="newsImages">
+            <view class="inner spring news hover" bindtap="openSpring">
+                <!--<view class="newsImages">
                     <image src="/images/jiudian.jpg" mode="scaleToFill"></image>
                 </view>
                 <view class="newsText">
                     <text class="name">香港嘉里酒店现已开幕</text>
                     <text class="time">2017/5/2</text>
                     <text class="text">全新</text>
-                </view>
+                </view>-->
                 
                 <!--<text class="text">春季出游</text>-->
             </view>

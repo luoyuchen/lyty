@@ -1,30 +1,30 @@
 var app = getApp();
 Page({
   data:{
-    banners:['/images/img1.jpg','/images/img3.jpg','/images/img2.jpg'],
+    banners:['http://api.h6vr.com/cdn.h6vr.com/lyty/images/img1.jpg','http://api.h6vr.com/cdn.h6vr.com/lyty/images/img3.jpg','http://api.h6vr.com/cdn.h6vr.com/lyty/images/img2.jpg'],
     indicatorDots:false,
     bannerautoplay:true,
     interval:5000,
     vertical: true,
     duration: 1000,
     circular: true,
-    headLineList:['/images/hot.jpg','http://api.h6vr.com/cdn.h6vr.com/chwl/images/hot/taohuajie.jpg','http://api.h6vr.com/cdn.h6vr.com/chwl/images/hot/taohuajie.jpg'],
+    headLineList:['http://api.h6vr.com/cdn.h6vr.com/lyty/images/hot.jpg','http://api.h6vr.com/cdn.h6vr.com/lyty/images/hot.jpg','http://api.h6vr.com/cdn.h6vr.com/lyty/images/hot.jpg'],
     hoticon:['http://api.h6vr.com/cdn.h6vr.com/chwl/images/hot/hot.png'],
     hotautoplay:false,
     navList:[
         {
             name:"签证",
-            icon:"/images/qianzheng.png",
+            icon:"http://api.h6vr.com/cdn.h6vr.com/lyty/images/qianzheng.png",
             page:"/pages/hot/hot"
         },
         {
             name:"线路",
-            icon:"/images/xianlu.png",
+            icon:"http://api.h6vr.com/cdn.h6vr.com/lyty/images/xianlu.png",
             page:"/pages/hot/hot"
         },
         {
             name:"地接",
-            icon:"/images/dijie.png",
+            icon:"http://api.h6vr.com/cdn.h6vr.com/lyty/images/dijie.png",
             page:"/pages/hot/hot"
         }
     ],

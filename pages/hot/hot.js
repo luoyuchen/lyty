@@ -47,5 +47,11 @@ Page({
     wx.makePhoneCall({
       phoneNumber: '18811569656'
     })
+  },
+  
+  goTo:function(){
+    wx.reLaunch({
+      url: '/pages/travel/travel'
+    })
   }
 })
