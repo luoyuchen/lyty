@@ -12,11 +12,13 @@
     <view class="horizon"></view>
   </view>
   <text class="detail">{{postList.detail}}</text>
-  <text class="detail"><text class="btext">联系方式(QQ)：</text>{{postList.besttime}}</text>
   <text class="detail"><text class="btext">热门国家和地区：</text>{{postList.place}}</text>
-  <text class="detail"><text class="btext">服务范围：</text>{{postList.roadmap}}</text>
+  <text class="detail"><text class="btext">服务范围：</text>{{postList.service}}</text>
+  <text class="detail" catchtap="callTel"><text class="btext">座机：</text>{{postList.tel}}</text>
+  <text class="detail" catchtap="callMb"><text class="btext">手机(微信)：</text>{{postList.mb}}</text>
+  <text class="detail"><text class="btext">QQ：</text>{{postList.qq}}</text>
   <view class="classname">
-    <image class="tupian" mode="widthFix" src="http://api.h6vr.com/cdn.h6vr.com/lyty/images/png1.png"></image>
+    <image class="tupian" mode="widthFix" src="/images/pngnew.png"></image>
     <button bindtap="goTo" type="primary" size="mini" style="margin-top:12px;margin-left:1%">返回首页</button>
   </view>
    

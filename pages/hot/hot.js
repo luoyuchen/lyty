@@ -48,7 +48,17 @@ Page({
       phoneNumber: '18811569656'
     })
   },
-  
+  callTel:function(){
+    wx.makePhoneCall({
+      phoneNumber: '010-65939099'
+      
+    })
+  },
+  callMb:function(){
+    wx.makePhoneCall({
+      phoneNumber: '18810353658'
+    })
+  },
   goTo:function(){
     wx.reLaunch({
       url: '/pages/travel/travel'

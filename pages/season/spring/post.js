@@ -22,7 +22,7 @@ Page({
   
   onShareAppMessage: function() {
         return {
-            title: '【北京春季赏花攻略】',
+            title: '【旅游圈 春季出行】',
             desc: '',
             path: 'pages/season/spring/post'
         }

@@ -20,7 +20,7 @@ Page({
   },
   onShareAppMessage: function() {
         return {
-            title: '【北京夏季游攻略】',
+            title: '【旅游圈 夏季游指南】',
             desc: '',
             path: 'pages/season/summer/post'
         }

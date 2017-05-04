@@ -20,7 +20,7 @@ Page({
   },
   onShareAppMessage: function() {
         return {
-            title: '【北京冬季好去处】',
+            title: '【旅游圈 冬季好去处】',
             desc: '',
             path: 'pages/season/winter/post'
         }

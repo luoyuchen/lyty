@@ -20,7 +20,7 @@ Page({
   },
   onShareAppMessage: function() {
         return {
-            title: '【北京秋季旅游攻略】',
+            title: '【旅游圈 秋季出行】',
             desc: '',
             path: 'pages/season/autumn/post'
         }
